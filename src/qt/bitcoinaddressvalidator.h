@@ -1,5 +1,5 @@
-#ifndef STARTCOINADDRESSVALIDATOR_H
-#define STARTCOINADDRESSVALIDATOR_H
+#ifndef DICECOINADDRESSVALIDATOR_H
+#define DICECOINADDRESSVALIDATOR_H
 
 #include <QValidator>
 
@@ -18,4 +18,4 @@ public:
     static const int MaxAddressLength = 35;
 };
 
-#endif // STARTCOINADDRESSVALIDATOR_H
+#endif // DICECOINADDRESSVALIDATOR_H

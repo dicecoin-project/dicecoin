@@ -6,12 +6,12 @@
 #include "version.h"
 
 // Name of client reported in the 'version' message. Report the same name
-// for both startcoind and startcoin-qt, to make it harder for attackers to
+// for both dicecoind and dicecoin-qt, to make it harder for attackers to
 // target servers or GUI users specifically.
-const std::string CLIENT_NAME("START");
+const std::string CLIENT_NAME("DICE");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX "-two"
+#define CLIENT_VERSION_SUFFIX ""
 
 
 // The following part of the code determines the CLIENT_BUILD variable.

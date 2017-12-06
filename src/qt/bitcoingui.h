@@ -1,5 +1,5 @@
-#ifndef STARTCOINGUI_H
-#define STARTCOINGUI_H
+#ifndef DICECOINGUI_H
+#define DICECOINGUI_H
 
 #include <QMainWindow>
 #include <QSystemTrayIcon>
@@ -197,4 +197,4 @@ private slots:
     void detectShutdown();
 };
 
-#endif // STARTCOINGUI_H
+#endif // DICECOINGUI_H

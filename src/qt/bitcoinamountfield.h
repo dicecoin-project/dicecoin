@@ -1,5 +1,5 @@
-#ifndef STARTCOINAMOUNTFIELD_H
-#define STARTCOINAMOUNTFIELD_H
+#ifndef DICECOINAMOUNTFIELD_H
+#define DICECOINAMOUNTFIELD_H
 
 #include <QWidget>
 
@@ -58,4 +58,4 @@ private slots:
 
 };
 
-#endif // STARTCOINAMOUNTFIELD_H
+#endif // DICECOINAMOUNTFIELD_H

@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About StartCOIN</source>
-        <translation>Informatio de StartCOIN</translation>
+        <source>About DiceCOIN</source>
+        <translation>Informatio de DiceCOIN</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;StartCOIN&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;StartCOIN&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;DiceCOIN&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;DiceCOIN&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     <message>
         <location line="+0"/>
         <source>StartJOIN</source>
-        <translation>StartCOIN curatores</translation>
+        <translation>DiceCOIN curatores</translation>
     </message>
 </context>
 <context>
@@ -66,8 +66,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your StartCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Haec sunt inscriptiones StartCOIN tuae pro accipendo pensitationes.  Cupias variam ad quemque mittentem dare ut melius scias quem tibi pensare.</translation>
+        <source>These are your DiceCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Haec sunt inscriptiones DiceCOIN tuae pro accipendo pensitationes.  Cupias variam ad quemque mittentem dare ut melius scias quem tibi pensare.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -81,8 +81,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a StartCOIN address</source>
-        <translation>Signa nuntium ut demonstres inscriptionem StartCOIN a te possessam esse</translation>
+        <source>Sign a message to prove you own a DiceCOIN address</source>
+        <translation>Signa nuntium ut demonstres inscriptionem DiceCOIN a te possessam esse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -106,8 +106,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified StartCOIN address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specificata inscriptione StartCOIN</translation>
+        <source>Verify a message to ensure it was signed with a specified DiceCOIN address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specificata inscriptione DiceCOIN</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -121,7 +121,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your StartCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your DiceCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
     </message>
     <message>
@@ -247,7 +247,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STARTCOIN&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DICECOIN&lt;/b&gt;!</source>
         <translation>Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS BITOS&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -274,8 +274,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-56"/>
-        <source>StartCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your startcoins from being stolen by malware infecting your computer.</source>
-        <translation>StartCOIN iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
+        <source>DiceCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dicecoins from being stolen by malware infecting your computer.</source>
+        <translation>DiceCOIN iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -373,8 +373,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about StartCOIN</source>
-        <translation>Monstra informationem de StartCOIN</translation>
+        <source>Show information about DiceCOIN</source>
+        <translation>Monstra informationem de DiceCOIN</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -418,13 +418,13 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a StartCOIN address</source>
-        <translation>Mitte nummos ad inscriptionem StartCOIN</translation>
+        <source>Send coins to a DiceCOIN address</source>
+        <translation>Mitte nummos ad inscriptionem DiceCOIN</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for StartCOIN</source>
-        <translation>Muta configurationis optiones pro StartCOIN</translation>
+        <source>Modify configuration options for DiceCOIN</source>
+        <translation>Muta configurationis optiones pro DiceCOIN</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -454,8 +454,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>StartCOIN</source>
-        <translation>StartCOIN</translation>
+        <source>DiceCOIN</source>
+        <translation>DiceCOIN</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -479,8 +479,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About StartCOIN</source>
-        <translation>&amp;Informatio de StartCOIN</translation>
+        <source>&amp;About DiceCOIN</source>
+        <translation>&amp;Informatio de DiceCOIN</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -499,13 +499,13 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your StartCOIN addresses to prove you own them</source>
-        <translation>Signa nuntios cum tuis inscriptionibus StartCOIN ut demonstres te eas possidere</translation>
+        <source>Sign messages with your DiceCOIN addresses to prove you own them</source>
+        <translation>Signa nuntios cum tuis inscriptionibus DiceCOIN ut demonstres te eas possidere</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified StartCOIN addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus StartCOIN</translation>
+        <source>Verify messages to ensure they were signed with specified DiceCOIN addresses</source>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus DiceCOIN</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -535,13 +535,13 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+47"/>
-        <source>StartCOIN client</source>
-        <translation>StartCOIN cliens</translation>
+        <source>DiceCOIN client</source>
+        <translation>DiceCOIN cliens</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to StartCOIN network</source>
-        <translation><numerusform>%n activa conexio ad rete StartCOIN</numerusform><numerusform>%n activae conexiones ad rete StartCOIN</numerusform></translation>
+        <source>%n active connection(s) to DiceCOIN network</source>
+        <translation><numerusform>%n activa conexio ad rete DiceCOIN</numerusform><numerusform>%n activae conexiones ad rete DiceCOIN</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Inscriptio: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid StartCOIN address or malformed URI parameters.</source>
-        <translation>URI intellegi non posse!  Huius causa possit inscriptionem StartCOIN non validam aut URI parametra maleformata.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid DiceCOIN address or malformed URI parameters.</source>
+        <translation>URI intellegi non posse!  Huius causa possit inscriptionem DiceCOIN non validam aut URI parametra maleformata.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. StartCOIN can no longer continue safely and will quit.</source>
-        <translation>Error fatalis accidit.  StartCOIN nondum pergere tute potest, et exibit.</translation>
+        <source>A fatal error occurred. DiceCOIN can no longer continue safely and will quit.</source>
+        <translation>Error fatalis accidit.  DiceCOIN nondum pergere tute potest, et exibit.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid StartCOIN address.</source>
-        <translation>Inscriptio inserta &quot;%1&quot; non valida inscriptio StartCOIN est.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid DiceCOIN address.</source>
+        <translation>Inscriptio inserta &quot;%1&quot; non valida inscriptio DiceCOIN est.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Inscriptio: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>StartCOIN-Qt</source>
-        <translation>StartCOIN-Qt</translation>
+        <source>DiceCOIN-Qt</source>
+        <translation>DiceCOIN-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start StartCOIN after logging in to the system.</source>
-        <translation>Pelle StartCOIN per se postquam in systema inire.</translation>
+        <source>Automatically start DiceCOIN after logging in to the system.</source>
+        <translation>Pelle DiceCOIN per se postquam in systema inire.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start StartCOIN on system login</source>
-        <translation>&amp;Pelle StartCOIN cum inire systema</translation>
+        <source>&amp;Start DiceCOIN on system login</source>
+        <translation>&amp;Pelle DiceCOIN cum inire systema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the StartCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aperi per se portam clientis StartCOIN in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <source>Automatically open the DiceCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis DiceCOIN in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the StartCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecte ad rete StartCOIN per SOCKS vicarium (e.g. quando conectens per Tor).</translation>
+        <source>Connect to the DiceCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecte ad rete DiceCOIN per SOCKS vicarium (e.g. quando conectens per Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting StartCOIN.</source>
-        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam StartCOIN iterum initiatum erit.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DiceCOIN.</source>
+        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam DiceCOIN iterum initiatum erit.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -943,8 +943,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show StartCOIN addresses in the transaction list or not.</source>
-        <translation>Num monstrare inscriptiones StartCOIN in enumeratione transactionum.</translation>
+        <source>Whether to show DiceCOIN addresses in the transaction list or not.</source>
+        <translation>Num monstrare inscriptiones DiceCOIN in enumeratione transactionum.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Inscriptio: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting StartCOIN.</source>
-        <translation>Haec configuratio effectiva erit postquam StartCOIN iterum initiatum erit.</translation>
+        <source>This setting will take effect after restarting DiceCOIN.</source>
+        <translation>Haec configuratio effectiva erit postquam DiceCOIN iterum initiatum erit.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,8 +1014,8 @@ Inscriptio: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the StartCOIN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete StartCOIN postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DiceCOIN network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete DiceCOIN postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1068,8 +1068,8 @@ Inscriptio: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start startcoin: click-to-pay handler</source>
-        <translation>StartCOIN incipere non potest: cliccare-ad-pensandum handler</translation>
+        <source>Cannot start dicecoin: click-to-pay handler</source>
+        <translation>DiceCOIN incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the StartCOIN-Qt help message to get a list with possible StartCOIN command-line options.</source>
-        <translation>Monstra nuntium auxilii StartCOIN-Qt ut videas enumerationem possibilium optionum StartCOIN mandati initiantis.</translation>
+        <source>Show the DiceCOIN-Qt help message to get a list with possible DiceCOIN command-line options.</source>
+        <translation>Monstra nuntium auxilii DiceCOIN-Qt ut videas enumerationem possibilium optionum DiceCOIN mandati initiantis.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>StartCOIN - Debug window</source>
-        <translation>StartCOIN - Fenestra debug</translation>
+        <source>DiceCOIN - Debug window</source>
+        <translation>DiceCOIN - Fenestra debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>StartCOIN Core</source>
-        <translation>StartCOIN Nucleus</translation>
+        <source>DiceCOIN Core</source>
+        <translation>DiceCOIN Nucleus</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the StartCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Aperi plicam catalogi de StartCOIN debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
+        <source>Open the DiceCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Aperi plicam catalogi de DiceCOIN debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the StartCOIN RPC console.</source>
-        <translation>Bene ventio in terminale RPC de StartCOIN.</translation>
+        <source>Welcome to the DiceCOIN RPC console.</source>
+        <translation>Bene ventio in terminale RPC de DiceCOIN.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1447,8 +1447,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a StartCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Insero inscriptionem StartCOIN (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a DiceCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Insero inscriptionem DiceCOIN (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
 </context>
 <context>
@@ -1512,8 +1512,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this StartCOIN address</source>
-        <translation>Signa nuntium ut demonstres hanc inscriptionem StartCOIN a te possessa esse</translation>
+        <source>Sign the message to prove you own this DiceCOIN address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem DiceCOIN a te possessa esse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,8 +1548,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified StartCOIN address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione StartCOIN</translation>
+        <source>Verify the message to ensure it was signed with the specified DiceCOIN address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione DiceCOIN</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Inscriptio: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a StartCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Insere inscriptionem StartCOIN (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a DiceCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Insere inscriptionem DiceCOIN (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter StartCOIN signature</source>
-        <translation>Insere signationem StartCOIN</translation>
+        <source>Enter DiceCOIN signature</source>
+        <translation>Insere signationem DiceCOIN</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,7 +1649,7 @@ Inscriptio: %4
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>StartJOIN</source>
-        <translation>StartCOIN curatores</translation>
+        <translation>DiceCOIN curatores</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2186,8 +2186,8 @@ Inscriptio: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>StartCOIN version</source>
-        <translation>Versio de StartCOIN</translation>
+        <source>DiceCOIN version</source>
+        <translation>Versio de DiceCOIN</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2196,8 +2196,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or startcoind</source>
-        <translation>Mitte mandatum ad -server vel startcoind</translation>
+        <source>Send command to -server or dicecoind</source>
+        <translation>Mitte mandatum ad -server vel dicecoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: startcoin.conf)</source>
-        <translation>Specifica configurationis plicam (praedefinitum: startcoin.conf)</translation>
+        <source>Specify configuration file (default: dicecoin.conf)</source>
+        <translation>Specifica configurationis plicam (praedefinitum: dicecoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: startcoind.pid)</source>
-        <translation>Specifica pid plicam (praedefinitum: startcoin.pid)</translation>
+        <source>Specify pid file (default: dicecoind.pid)</source>
+        <translation>Specifica pid plicam (praedefinitum: dicecoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,24 +2299,24 @@ Inscriptio: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=startcoinrpc
+rpcuser=dicecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;StartCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DiceCOIN Alert&quot; admin@foo.com
 </source>
         <translation>%s, necesse est te rpcpassword constituere in plica configurationis:
 %s
 Hortatur te hanc fortuitam tesseram uti:
-rpcuser=startcoinrpc
+rpcuser=dicecoinrpc
 rpcpassword=%s
 (non est necesse te hanc tesseram meminisse)
 Nomen usoris et tessera eadem esse NON POSSUNT.
 Si plica non existit, eam crea cum permissionibus ut eius dominus tantum sinitur id legere.
 Quoque hortatur alertnotify constituere ut tu notificetur de problematibus;
-exempli gratia: alertnotify=echo %%s | mail -s &quot;StartCOIN Notificatio&quot; admin@foo.com
+exempli gratia: alertnotify=echo %%s | mail -s &quot;DiceCOIN Notificatio&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2331,8 +2331,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;StartCOIN Notificatio&quot;
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. StartCOIN is probably already running.</source>
-        <translation>Non posse serare datorum indicem %s.  StartCOIN probabiliter iam operatur.</translation>
+        <source>Cannot obtain a lock on data directory %s. DiceCOIN is probably already running.</source>
+        <translation>Non posse serare datorum indicem %s.  DiceCOIN probabiliter iam operatur.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;StartCOIN Notificatio&quot;
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong StartCOIN will not work properly.</source>
-        <translation>Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, StartCOIN non proprie fungetur.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DiceCOIN will not work properly.</source>
+        <translation>Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, DiceCOIN non proprie fungetur.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;StartCOIN Notificatio&quot;
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the StartCOIN Wiki for SSL setup instructions)</source>
-        <translation>Optiones SSL: (vide vici de StartCOIN pro instructionibus SSL configurationis)</translation>
+        <source>SSL options: (see the DiceCOIN Wiki for SSL setup instructions)</source>
+        <translation>Optiones SSL: (vide vici de DiceCOIN pro instructionibus SSL configurationis)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;StartCOIN Notificatio&quot;
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of StartCOIN</source>
-        <translation>Error legendi wallet.dat: Cassidili necesse est recentior versio StartCOIN</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DiceCOIN</source>
+        <translation>Error legendi wallet.dat: Cassidili necesse est recentior versio DiceCOIN</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart StartCOIN to complete</source>
-        <translation>Cassidili necesse erat rescribi: Repelle StartCOIN ut compleas</translation>
+        <source>Wallet needed to be rewritten: restart DiceCOIN to complete</source>
+        <translation>Cassidili necesse erat rescribi: Repelle DiceCOIN ut compleas</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;StartCOIN Notificatio&quot;
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. StartCOIN is probably already running.</source>
-        <translation>Non posse conglutinare ad %s in hoc cumputatro.  StartCOIN probabiliter iam operatur.</translation>
+        <source>Unable to bind to %s on this computer. DiceCOIN is probably already running.</source>
+        <translation>Non posse conglutinare ad %s in hoc cumputatro.  DiceCOIN probabiliter iam operatur.</translation>
     </message>
     <message>
         <location line="+64"/>

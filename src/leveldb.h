@@ -1,8 +1,8 @@
 // Copyright (c) 2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef STARTCOIN_LEVELDB_H
-#define STARTCOIN_LEVELDB_H
+#ifndef DICECOIN_LEVELDB_H
+#define DICECOIN_LEVELDB_H
 
 #include "serialize.h"
 
@@ -150,4 +150,4 @@ public:
     }
 };
 
-#endif // STARTCOIN_LEVELDB_H
+#endif // DICECOIN_LEVELDB_H

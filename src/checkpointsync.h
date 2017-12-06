@@ -1,9 +1,9 @@
 // Copyright (c) 2011-2013 PPCoin developers
-// Copyright (c) 2013 STARTCOIN developers
+// Copyright (c) 2013 DICECOIN developers
 // Distributed under conditional MIT/X11 open source software license
 // see the accompanying file COPYING
-#ifndef STARTCOIN_CHECKPOINTSYNC_H
-#define  STARTCOIN_CHECKPOINTSYNC_H
+#ifndef DICECOIN_CHECKPOINTSYNC_H
+#define  DICECOIN_CHECKPOINTSYNC_H
 
 #include "net.h"
 #include "util.h"
