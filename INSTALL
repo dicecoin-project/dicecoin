@@ -1,9 +1,9 @@
-Building StartCOIN
+Building DiceCOIN
 
-See doc/readme-qt.rst for instructions on building StartCOIN-Qt,
+See doc/readme-qt.rst for instructions on building DiceCOIN-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of StartCOIN.
+implementation of DiceCOIN.
 
-See doc/build-*.txt for instructions on building startcoind,
+See doc/build-*.txt for instructions on building dicecoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of StartCOIN.
+implementation of DiceCOIN.

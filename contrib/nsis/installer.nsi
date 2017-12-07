@@ -1,12 +1,12 @@
-# This installs StartCOIN, creates a start menu shortcut, builds an uninstaller, and
+# This installs DiceCOIN, creates a start menu shortcut, builds an uninstaller, and
 # adds uninstall information to the registry for Add/Remove Programs
 
 # Include script to determine Windows version
 !include WinVer.nsh
 
 # Set up application parameters
-!define APPNAME "StartCOIN"
-!define COMPANYNAME "StartCOIN"
+!define APPNAME "DiceCOIN"
+!define COMPANYNAME "DiceCOIN"
 !define DESCRIPTION "The digital currency for crowdfunding"
 
 # version
@@ -16,9 +16,9 @@
 !define VERSIONINCRM 2
 
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
-!define HELPURL "http://startcoin.org" # "Support Information" link
-!define UPDATEURL "http://startcoin.org" # "Product Updates" link
-!define ABOUTURL "http://startcoin.org" # "Publisher" link
+!define HELPURL "http://dicecoin.org" # "Support Information" link
+!define UPDATEURL "http://dicecoin.org" # "Product Updates" link
+!define ABOUTURL "http://dicecoin.org" # "Publisher" link
 # This is the size (in kB) of all the files copied into "Program Files"
 !define INSTALLSIZE 27556
  
@@ -30,8 +30,8 @@ InstallDir "$PROGRAMFILES\${APPNAME}"
 LicenseData "license.txt"
 # This will be in the installer/uninstaller's title bar
 Name "${APPNAME}"
-Icon "startcoin.ico"
-outFile "startcoin-installer.exe"
+Icon "dicecoin.ico"
+outFile "dicecoin-installer.exe"
  
 !include LogicLib.nsh
  
@@ -62,9 +62,9 @@ section "install"
 	file "libgcc_s_dw2-1.dll"
 	file "libstdc++-6.dll"
 	file "libwinpthread-1.dll"
-	file "startcoind.exe"
-	file "startcoin-qt.exe"
-	file "startcoin.ico"
+	file "dicecoind.exe"
+	file "dicecoin-qt.exe"
+	file "dicecoin.ico"
 	# Add any other files for the install directory (license files, app data, etc) here
  
 	# Uninstaller - See function un.onInit and section "uninstall" for configuration
@@ -72,14 +72,14 @@ section "install"
  
 	# Start Menu
 	createDirectory "$SMPROGRAMS\${APPNAME}"
-	createShortCut "$SMPROGRAMS\${APPNAME}\${APPNAME}.lnk" "$INSTDIR\startcoin-qt.exe" "" "$INSTDIR\startcoin.ico"
+	createShortCut "$SMPROGRAMS\${APPNAME}\${APPNAME}.lnk" "$INSTDIR\dicecoin-qt.exe" "" "$INSTDIR\dicecoin.ico"
  
 	# Registry information for add/remove programs
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APPNAME}" "DisplayName" "- ${APPNAME} - ${DESCRIPTION}"
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APPNAME}" "UninstallString" "$\"$INSTDIR\uninstall.exe$\""
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APPNAME}" "QuietUninstallString" "$\"$INSTDIR\uninstall.exe$\" /S"
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APPNAME}" "InstallLocation" "$\"$INSTDIR$\""
-	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APPNAME}" "DisplayIcon" "$\"$INSTDIR\startcoin.ico$\""
+	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APPNAME}" "DisplayIcon" "$\"$INSTDIR\dicecoin.ico$\""
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APPNAME}" "Publisher" "$\"${COMPANYNAME}$\""
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APPNAME}" "HelpLink" "$\"${HELPURL}$\""
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APPNAME}" "URLUpdateInfo" "$\"${UPDATEURL}$\""
@@ -119,9 +119,9 @@ section "uninstall"
 	delete $INSTDIR\libgcc_s_dw2-1.dll
 	delete $INSTDIR\libstdc++6.dll
 	delete $INSTDIR\libwinpthread-1.dll
-	delete $INSTDIR\startcoind.exe
-	delete $INSTDIR\startcoin-qt.exe
-	delete $INSTDIR\startcoin.ico
+	delete $INSTDIR\dicecoind.exe
+	delete $INSTDIR\dicecoin-qt.exe
+	delete $INSTDIR\dicecoin.ico
  
 	# Always delete uninstaller as the last action
 	delete $INSTDIR\uninstall.exe

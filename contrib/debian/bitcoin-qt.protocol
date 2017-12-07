@@ -1,5 +1,5 @@
 [Protocol]
-exec=startcoin-qt '%u'
+exec=dicecoin-qt '%u'
 protocol=bitcoin
 input=none
 output=none

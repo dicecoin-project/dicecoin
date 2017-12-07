@@ -1,6 +1,6 @@
-startcoin-qt usr/bin
+dicecoin-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/startcoin-qt.desktop usr/share/applications
-debian/startcoin-qt.protocol usr/share/kde4/services/
+debian/dicecoin-qt.desktop usr/share/applications
+debian/dicecoin-qt.protocol usr/share/kde4/services/

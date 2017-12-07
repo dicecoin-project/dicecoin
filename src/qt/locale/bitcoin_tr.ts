@@ -1649,7 +1649,7 @@ Adres: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>StartJOIN</source>
+        <source>DiceCOIN</source>
         <translation>DiceCOIN geliştiricileri</translation>
     </message>
     <message>

@@ -1,14 +1,14 @@
-StartCOIN [START] Technical Details
+DiceCOIN [DICE] Technical Details
 ===================================
 
-This document outlines the technical implementation details for StartCOIN. It should be of use to advanced users and developers.
+This document outlines the technical implementation details for DiceCOIN. It should be of use to advanced users and developers.
 
 Specifications
 --------------
 
 * 84 million coins in total
-* 1 minute average block time
-* 40 coins per block
+* 2 minute average block time
+* 1000 coins per block
 * Block reward halves every 12 months
 * Retargets difficulty temporally using DigiShield
 * x11 ASIC-resistant Proof-of-Work algorithm
@@ -16,15 +16,15 @@ Specifications
 Port numbers
 ------------
 
-The following port numbers are used by StartCOIN.
+The following port numbers are used by DiceCOIN.
 
-* P2P uses port 9247 (19247 on Testnet)
-* RPC uses port 9347 (19347 on Testnet)
+* P2P uses port 7247 (17247 on Testnet)
+* RPC uses port 7347 (17347 on Testnet)
 
 Message start string
 --------------------
 
-The message start string used by StartCOIN is:
+The message start string used by DiceCOIN is:
 
 ```
 0xff, 0xc4, 0xba, 0xdf

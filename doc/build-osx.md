@@ -1,4 +1,4 @@
-Mac OS X startcoind build instructions
+Mac OS X dicecoind build instructions
 ======================================
 
 Original Authors
@@ -26,7 +26,7 @@ Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.
 Notes
 -----
 
-See `doc/readme-qt.rst` for instructions on building StartCOIN-Qt, the
+See `doc/readme-qt.rst` for instructions on building DiceCOIN-Qt, the
 graphical user interface.
 
 Tested on OS X 10.5 through 10.8 on Intel processors only. PPC is not
@@ -72,14 +72,14 @@ Installing the dependencies using MacPorts is very straightforward.
 
     sudo port install boost db48@+no_java openssl miniupnpc
 
-### Building `startcoind`
+### Building `dicecoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:startcoin-project/startcoin.git startcoin
-        cd startcoin
+        git clone git@github.com:dicecoin-project/dicecoin.git dicecoin
+        cd dicecoin
 
-2.  Build startcoind:
+2.  Build dicecoind:
 
         cd src
         make -f makefile.osx
@@ -107,12 +107,12 @@ If not, you can ensure that the Brew OpenSSL is correctly linked by running
 
 Rerunning "openssl version" should now return the correct version.
 
-### Building `startcoind`
+### Building `dicecoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:startcoin-project/startcoin.git startcoin
-        cd startcoin
+        git clone git@github.com:dicecoin-project/dicecoin.git dicecoin
+        cd dicecoin
 
 2.  Modify source in order to pick up the `openssl` library.
 
@@ -122,7 +122,7 @@ Rerunning "openssl version" should now return the correct version.
 
         patch -p1 < contrib/homebrew/makefile.osx.patch
 
-3.  Build startcoind:
+3.  Build dicecoind:
 
         cd src
         make -f makefile.osx
@@ -134,8 +134,8 @@ Rerunning "openssl version" should now return the correct version.
 Creating a release build
 ------------------------
 
-A startcoind binary is not included in the StartCOIN-Qt.app bundle. You can ignore
-this section if you are building `startcoind` for your own use.
+A dicecoind binary is not included in the DiceCOIN-Qt.app bundle. You can ignore
+this section if you are building `dicecoind` for your own use.
 
 If you are building `litecond` for others, your build machine should be set up
 as follows for maximum compatibility:
@@ -156,30 +156,30 @@ As of December 2012, the `boost` port does not obey `macosx_deployment_target`.
 Download `http://gavinandresen-bitcoin.s3.amazonaws.com/boost_macports_fix.zip`
 for a fix. Some ports also seem to obey either `build_arch` or
 `macosx_deployment_target`, but not both at the same time. For example, building
-on an OS X 10.6 64-bit machine fails. Official release builds of StartCOIN-Qt are
+on an OS X 10.6 64-bit machine fails. Official release builds of DiceCOIN-Qt are
 compiled on an OS X 10.6 32-bit machine to workaround that problem.
 
-Once dependencies are compiled, creating `StartCOIN-Qt.app` is easy:
+Once dependencies are compiled, creating `DiceCOIN-Qt.app` is easy:
 
     make -f Makefile.osx RELEASE=1
 
 Running
 -------
 
-It's now available at `./startcoind`, provided that you are still in the `src`
+It's now available at `./dicecoind`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./startcoind` to get the filename where it should be put, or just try these
+Run `./dicecoind` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=startcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/StartCOIN/startcoin.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/StartCOIN/startcoin.conf"
+    echo -e "rpcuser=dicecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/DiceCOIN/dicecoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/DiceCOIN/dicecoin.conf"
 
 When next you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours.
 
 Other commands:
 
-    ./startcoind --help  # for a list of command-line options.
-    ./startcoind -daemon # to start the startcoin daemon.
-    ./startcoind help    # When the daemon is running, to get a list of RPC commands
+    ./dicecoind --help  # for a list of command-line options.
+    ./dicecoind -daemon # to start the dicecoin daemon.
+    ./dicecoind help    # When the daemon is running, to get a list of RPC commands

@@ -6,7 +6,7 @@ Release Process
 ###update (commit) version in sources
 
 
-	startcoin-qt.pro
+	dicecoin-qt.pro
 	contrib/verifysfbinaries/verify.sh
 	doc/README*
 	share/setup.nsi
@@ -24,7 +24,7 @@ Release Process
 
 ##perform gitian builds
 
- From a directory containing the startcoin source, gitian-builder and gitian.sigs
+ From a directory containing the dicecoin source, gitian-builder and gitian.sigs
   
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
 	export VERSION=0.8.0
@@ -42,66 +42,66 @@ Release Process
 	wget 'http://downloads.sourceforge.net/project/boost/boost/1.50.0/boost_1_50_0.tar.bz2'
 	wget 'http://releases.qt-project.org/qt4/source/qt-everywhere-opensource-src-4.8.3.tar.gz'
 	cd ..
-	./bin/gbuild ../startcoin/contrib/gitian-descriptors/boost-win32.yml
+	./bin/gbuild ../dicecoin/contrib/gitian-descriptors/boost-win32.yml
 	mv build/out/boost-win32-1.50.0-gitian2.zip inputs/
-	./bin/gbuild ../startcoin/contrib/gitian-descriptors/qt-win32.yml
+	./bin/gbuild ../dicecoin/contrib/gitian-descriptors/qt-win32.yml
 	mv build/out/qt-win32-4.8.3-gitian-r1.zip inputs/
-	./bin/gbuild ../startcoin/contrib/gitian-descriptors/deps-win32.yml
-	mv build/out/startcoin-deps-0.0.5.zip inputs/
+	./bin/gbuild ../dicecoin/contrib/gitian-descriptors/deps-win32.yml
+	mv build/out/dicecoin-deps-0.0.5.zip inputs/
 
- Build startcoind and startcoin-qt on Linux32, Linux64, and Win32:
+ Build dicecoind and dicecoin-qt on Linux32, Linux64, and Win32:
   
-	./bin/gbuild --commit startcoin=v${VERSION} ../startcoin/contrib/gitian-descriptors/gitian.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../startcoin/contrib/gitian-descriptors/gitian.yml
+	./bin/gbuild --commit dicecoin=v${VERSION} ../dicecoin/contrib/gitian-descriptors/gitian.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../dicecoin/contrib/gitian-descriptors/gitian.yml
 	pushd build/out
-	zip -r startcoin-${VERSION}-linux-gitian.zip *
-	mv startcoin-${VERSION}-linux-gitian.zip ../../
+	zip -r dicecoin-${VERSION}-linux-gitian.zip *
+	mv dicecoin-${VERSION}-linux-gitian.zip ../../
 	popd
-	./bin/gbuild --commit startcoin=v${VERSION} ../startcoin/contrib/gitian-descriptors/gitian-win32.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win32 --destination ../gitian.sigs/ ../startcoin/contrib/gitian-descriptors/gitian-win32.yml
+	./bin/gbuild --commit dicecoin=v${VERSION} ../dicecoin/contrib/gitian-descriptors/gitian-win32.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win32 --destination ../gitian.sigs/ ../dicecoin/contrib/gitian-descriptors/gitian-win32.yml
 	pushd build/out
-	zip -r startcoin-${VERSION}-win32-gitian.zip *
-	mv startcoin-${VERSION}-win32-gitian.zip ../../
+	zip -r dicecoin-${VERSION}-win32-gitian.zip *
+	mv dicecoin-${VERSION}-win32-gitian.zip ../../
 	popd
 
   Build output expected:
 
-  1. linux 32-bit and 64-bit binaries + source (startcoin-${VERSION}-linux-gitian.zip)
-  2. windows 32-bit binary, installer + source (startcoin-${VERSION}-win32-gitian.zip)
+  1. linux 32-bit and 64-bit binaries + source (dicecoin-${VERSION}-linux-gitian.zip)
+  2. windows 32-bit binary, installer + source (dicecoin-${VERSION}-win32-gitian.zip)
   3. Gitian signatures (in gitian.sigs/${VERSION}[-win32]/(your gitian key)/
 
 repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 **Linux .tar.gz:**
 
-	unzip startcoin-${VERSION}-linux-gitian.zip -d startcoin-${VERSION}-linux
-	tar czvf startcoin-${VERSION}-linux.tar.gz startcoin-${VERSION}-linux
-	rm -rf startcoin-${VERSION}-linux
+	unzip dicecoin-${VERSION}-linux-gitian.zip -d dicecoin-${VERSION}-linux
+	tar czvf dicecoin-${VERSION}-linux.tar.gz dicecoin-${VERSION}-linux
+	rm -rf dicecoin-${VERSION}-linux
 
 **Windows .zip and setup.exe:**
 
-	unzip startcoin-${VERSION}-win32-gitian.zip -d startcoin-${VERSION}-win32
-	mv startcoin-${VERSION}-win32/startcoin-*-setup.exe .
-	zip -r startcoin-${VERSION}-win32.zip bitcoin-${VERSION}-win32
-	rm -rf startcoin-${VERSION}-win32
+	unzip dicecoin-${VERSION}-win32-gitian.zip -d dicecoin-${VERSION}-win32
+	mv dicecoin-${VERSION}-win32/dicecoin-*-setup.exe .
+	zip -r dicecoin-${VERSION}-win32.zip bitcoin-${VERSION}-win32
+	rm -rf dicecoin-${VERSION}-win32
 
 **Perform Mac build:**
 
   OSX binaries are created by Gavin Andresen on a 32-bit, OSX 10.6 machine.
 
-	qmake RELEASE=1 USE_UPNP=1 USE_QRCODE=1 startcoin-qt.pro
+	qmake RELEASE=1 USE_UPNP=1 USE_QRCODE=1 dicecoin-qt.pro
 	make
 	export QTDIR=/opt/local/share/qt4  # needed to find translations/qt_*.qm files
 	T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
 	python2.7 share/qt/clean_mac_info_plist.py
-	python2.7 contrib/macdeploy/macdeployqtplus StartCOIN-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
+	python2.7 contrib/macdeploy/macdeployqtplus DiceCOIN-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
 
- Build output expected: StartCOIN-Qt.dmg
+ Build output expected: DiceCOIN-Qt.dmg
 
 ###Next steps:
 
 * Code-sign Windows -setup.exe (in a Windows virtual machine) and
-  OSX StartCOIN-Qt.app (Note: only Gavin has the code-signing keys currently)
+  OSX DiceCOIN-Qt.app (Note: only Gavin has the code-signing keys currently)
 
 * upload builds to SourceForge
 
@@ -120,32 +120,32 @@ Commit your signature to gitian.sigs:
 
 ### After 3 or more people have gitian-built, repackage gitian-signed zips:
 
-From a directory containing startcoin source, gitian.sigs and gitian zips
+From a directory containing dicecoin source, gitian.sigs and gitian zips
 
 	export VERSION=0.5.1
-	mkdir startcoin-${VERSION}-linux-gitian
-	pushd startcoin-${VERSION}-linux-gitian
-	unzip ../startcoin-${VERSION}-linux-gitian.zip
+	mkdir dicecoin-${VERSION}-linux-gitian
+	pushd dicecoin-${VERSION}-linux-gitian
+	unzip ../dicecoin-${VERSION}-linux-gitian.zip
 	mkdir gitian
-	cp ../startcoin/contrib/gitian-downloader/*.pgp ./gitian/
+	cp ../dicecoin/contrib/gitian-downloader/*.pgp ./gitian/
 	for signer in $(ls ../gitian.sigs/${VERSION}/); do
-	 cp ../gitian.sigs/${VERSION}/${signer}/startcoin-build.assert ./gitian/${signer}-build.assert
-	 cp ../gitian.sigs/${VERSION}/${signer}/startcoin-build.assert.sig ./gitian/${signer}-build.assert.sig
+	 cp ../gitian.sigs/${VERSION}/${signer}/dicecoin-build.assert ./gitian/${signer}-build.assert
+	 cp ../gitian.sigs/${VERSION}/${signer}/dicecoin-build.assert.sig ./gitian/${signer}-build.assert.sig
 	done
-	zip -r startcoin-${VERSION}-linux-gitian.zip *
-	cp startcoin-${VERSION}-linux-gitian.zip ../
+	zip -r dicecoin-${VERSION}-linux-gitian.zip *
+	cp dicecoin-${VERSION}-linux-gitian.zip ../
 	popd
-	mkdir startcoin-${VERSION}-win32-gitian
-	pushd startcoin-${VERSION}-win32-gitian
-	unzip ../startcoin-${VERSION}-win32-gitian.zip
+	mkdir dicecoin-${VERSION}-win32-gitian
+	pushd dicecoin-${VERSION}-win32-gitian
+	unzip ../dicecoin-${VERSION}-win32-gitian.zip
 	mkdir gitian
-	cp ../startcoin/contrib/gitian-downloader/*.pgp ./gitian/
+	cp ../dicecoin/contrib/gitian-downloader/*.pgp ./gitian/
 	for signer in $(ls ../gitian.sigs/${VERSION}-win32/); do
-	 cp ../gitian.sigs/${VERSION}-win32/${signer}/startcoin-build.assert ./gitian/${signer}-build.assert
-	 cp ../gitian.sigs/${VERSION}-win32/${signer}/startcoin-build.assert.sig ./gitian/${signer}-build.assert.sig
+	 cp ../gitian.sigs/${VERSION}-win32/${signer}/dicecoin-build.assert ./gitian/${signer}-build.assert
+	 cp ../gitian.sigs/${VERSION}-win32/${signer}/dicecoin-build.assert.sig ./gitian/${signer}-build.assert.sig
 	done
-	zip -r startcoin-${VERSION}-win32-gitian.zip *
-	cp startcoin-${VERSION}-win32-gitian.zip ../
+	zip -r dicecoin-${VERSION}-win32-gitian.zip *
+	cp dicecoin-${VERSION}-win32-gitian.zip ../
 	popd
 
 - Upload gitian zips to SourceForge

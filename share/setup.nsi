@@ -1,4 +1,4 @@
-Name StartCOIN
+Name DiceCOIN
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -19,8 +19,8 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER StartCOIN
-!define MUI_FINISHPAGE_RUN $INSTDIR\startcoin-qt.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER DiceCOIN
+!define MUI_FINISHPAGE_RUN $INSTDIR\dicecoin-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -45,14 +45,14 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile startcoin-0.8.6.2-win32-setup.exe
-InstallDir $PROGRAMFILES\StartCOIN
+OutFile dicecoin-0.8.6.2-win32-setup.exe
+InstallDir $PROGRAMFILES\DiceCOIN
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion 0.8.6.2
-VIAddVersionKey ProductName StartCOIN
+VIAddVersionKey ProductName DiceCOIN
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -66,18 +66,18 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File ../release/startcoin-qt.exe
+    File ../release/dicecoin-qt.exe
     File /oname=COPYING.txt ../COPYING
     File /oname=readme.txt ../doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File ../src/startcoind.exe
+    File ../src/dicecoind.exe
     SetOutPath $INSTDIR\src
     File /r /x *.exe /x *.o ../src\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
     # Remove old wxwidgets-based-bitcoin executable and locales:
-    Delete /REBOOTOK $INSTDIR\startcoin.exe
+    Delete /REBOOTOK $INSTDIR\dicecoin.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -87,8 +87,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\StartCOIN.lnk" $INSTDIR\startcoin-qt.exe
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall StartCOIN.lnk" $INSTDIR\uninstall.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\DiceCOIN.lnk" $INSTDIR\dicecoin-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall DiceCOIN.lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -98,10 +98,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "startcoin" "URL Protocol" ""
-    WriteRegStr HKCR "startcoin" "" "URL:StartCOIN"
-    WriteRegStr HKCR "startcoin\DefaultIcon" "" $INSTDIR\startcoin-qt.exe
-    WriteRegStr HKCR "startcoin\shell\open\command" "" '"$INSTDIR\startcoin-qt.exe" "%1"'
+    WriteRegStr HKCR "dicecoin" "URL Protocol" ""
+    WriteRegStr HKCR "dicecoin" "" "URL:DiceCOIN"
+    WriteRegStr HKCR "dicecoin\DefaultIcon" "" $INSTDIR\dicecoin-qt.exe
+    WriteRegStr HKCR "dicecoin\shell\open\command" "" '"$INSTDIR\dicecoin-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -119,7 +119,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\startcoin-qt.exe
+    Delete /REBOOTOK $INSTDIR\dicecoin-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -129,9 +129,9 @@ SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall StartCOIN.lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\StartCOIN.lnk"
-    Delete /REBOOTOK "$SMSTARTUP\StartCOIN.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall DiceCOIN.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\DiceCOIN.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\DiceCOIN.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "startcoin"
+    DeleteRegKey HKCR "dicecoin"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

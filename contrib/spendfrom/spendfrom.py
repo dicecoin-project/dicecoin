@@ -7,7 +7,7 @@
 #  spendfrom.py  # Lists available funds
 #  spendfrom.py --from=ADDRESS --to=ADDRESS --amount=11.00
 #
-# Assumes it will talk to a bitcoind or StartCOIN-Qt running
+# Assumes it will talk to a bitcoind or DiceCOIN-Qt running
 # on localhost.
 #
 # Depends on jsonrpc
