@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DiceCOIN</source>
-        <translation>Om DiceCOIN</translation>
+        <source>About Dicecoin</source>
+        <translation>Om Dicecoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DiceCOIN&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;DiceCOIN&lt;/b&gt; versjon</translation>
+        <source>&lt;b&gt;Dicecoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Dicecoin&lt;/b&gt; versjon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -67,8 +67,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your DiceCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine DiceCOIN-adresser for mottak av betalinger. Du kan gi forskjellige adresser til alle som skal betale deg for å holde bedre oversikt.</translation>
+        <source>These are your Dicecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine Dicecoin-adresser for mottak av betalinger. Du kan gi forskjellige adresser til alle som skal betale deg for å holde bedre oversikt.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DiceCOIN address</source>
-        <translation>Signer en melding for å bevise at du eier en DiceCOIN-adresse</translation>
+        <source>Sign a message to prove you own a Dicecoin address</source>
+        <translation>Signer en melding for å bevise at du eier en Dicecoin-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified DiceCOIN address</source>
-        <translation>Verifiser en melding for å være sikker på at den ble signert av en angitt DiceCOIN-adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified Dicecoin address</source>
+        <translation>Verifiser en melding for å være sikker på at den ble signert av en angitt Dicecoin-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,7 +122,7 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your DiceCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Dicecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -275,8 +275,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-56"/>
-        <source>DiceCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dicecoins from being stolen by malware infecting your computer.</source>
-        <translation>DiceCOIN vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine dicecoins fra å bli stjålet om skadevare infiserer datamaskinen.</translation>
+        <source>Dicecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dicecoins from being stolen by malware infecting your computer.</source>
+        <translation>Dicecoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine dicecoins fra å bli stjålet om skadevare infiserer datamaskinen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DiceCOIN</source>
-        <translation>Vis informasjon om DiceCOIN</translation>
+        <source>Show information about Dicecoin</source>
+        <translation>Vis informasjon om Dicecoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a DiceCOIN address</source>
-        <translation>Send til en DiceCOIN-adresse</translation>
+        <source>Send coins to a Dicecoin address</source>
+        <translation>Send til en Dicecoin-adresse</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for DiceCOIN</source>
-        <translation>Endre oppsett for DiceCOIN</translation>
+        <source>Modify configuration options for Dicecoin</source>
+        <translation>Endre oppsett for Dicecoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>DiceCOIN</source>
-        <translation>DiceCOIN</translation>
+        <source>Dicecoin</source>
+        <translation>Dicecoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About DiceCOIN</source>
-        <translation>&amp;Om DiceCOIN</translation>
+        <source>&amp;About Dicecoin</source>
+        <translation>&amp;Om Dicecoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your DiceCOIN addresses to prove you own them</source>
+        <source>Sign messages with your Dicecoin addresses to prove you own them</source>
         <translation>Signér en melding for å bevise at du eier denne adressen</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified DiceCOIN addresses</source>
-        <translation>Bekreft meldinger for å være sikker på at de ble signert av en angitt DiceCOIN-adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Dicecoin addresses</source>
+        <translation>Bekreft meldinger for å være sikker på at de ble signert av en angitt Dicecoin-adresse</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+47"/>
-        <source>DiceCOIN client</source>
-        <translation>DiceCOINklient</translation>
+        <source>Dicecoin client</source>
+        <translation>Dicecoinklient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to DiceCOIN network</source>
-        <translation><numerusform>%n aktiv forbindelse til DiceCOIN-nettverket</numerusform><numerusform>%n aktive forbindelser til DiceCOIN-nettverket</numerusform></translation>
+        <source>%n active connection(s) to Dicecoin network</source>
+        <translation><numerusform>%n aktiv forbindelse til Dicecoin-nettverket</numerusform><numerusform>%n aktive forbindelser til Dicecoin-nettverket</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresse: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid DiceCOIN address or malformed URI parameters.</source>
-        <translation>URI kunne ikke tolkes! Dette kan forårsakes av en ugyldig DiceCOIN-adresse eller feil i URI-parametere.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Dicecoin address or malformed URI parameters.</source>
+        <translation>URI kunne ikke tolkes! Dette kan forårsakes av en ugyldig Dicecoin-adresse eller feil i URI-parametere.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. DiceCOIN can no longer continue safely and will quit.</source>
-        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og DiceCOIN må derfor avslutte.</translation>
+        <source>A fatal error occurred. Dicecoin can no longer continue safely and will quit.</source>
+        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og Dicecoin må derfor avslutte.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresse: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DiceCOIN address.</source>
-        <translation>Den angitte adressed &quot;%1&quot; er ikke en gyldig DiceCOIN-adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Dicecoin address.</source>
+        <translation>Den angitte adressed &quot;%1&quot; er ikke en gyldig Dicecoin-adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresse: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>DiceCOIN-Qt</source>
-        <translation>DiceCOIN-Qt</translation>
+        <source>Dicecoin-Qt</source>
+        <translation>Dicecoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -820,13 +820,13 @@ Adresse: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DiceCOIN after logging in to the system.</source>
-        <translation>Start DiceCOIN automatisk etter innlogging.</translation>
+        <source>Automatically start Dicecoin after logging in to the system.</source>
+        <translation>Start Dicecoin automatisk etter innlogging.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DiceCOIN on system login</source>
-        <translation>&amp;Start DiceCOIN ved systeminnlogging</translation>
+        <source>&amp;Start Dicecoin on system login</source>
+        <translation>&amp;Start Dicecoin ved systeminnlogging</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -845,8 +845,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DiceCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åpne automatisk DiceCOIN klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
+        <source>Automatically open the Dicecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åpne automatisk Dicecoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -855,8 +855,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DiceCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Koble til DiceCOIN-nettverket gjennom en SOCKS proxy (f.eks. ved tilkobling gjennom Tor).</translation>
+        <source>Connect to the Dicecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Koble til Dicecoin-nettverket gjennom en SOCKS proxy (f.eks. ved tilkobling gjennom Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -930,8 +930,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DiceCOIN.</source>
-        <translation>Språket for brukergrensesnittet kan settes her. Innstillingen trer i kraft ved omstart av DiceCOIN.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Dicecoin.</source>
+        <translation>Språket for brukergrensesnittet kan settes her. Innstillingen trer i kraft ved omstart av Dicecoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -945,8 +945,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DiceCOIN addresses in the transaction list or not.</source>
-        <translation>Om DiceCOIN-adresser skal vises i transaksjonslisten eller ikke.</translation>
+        <source>Whether to show Dicecoin addresses in the transaction list or not.</source>
+        <translation>Om Dicecoin-adresser skal vises i transaksjonslisten eller ikke.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -997,8 +997,8 @@ Adresse: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DiceCOIN.</source>
-        <translation>Denne innstillingen trer i kraft etter omstart av DiceCOIN.</translation>
+        <source>This setting will take effect after restarting Dicecoin.</source>
+        <translation>Denne innstillingen trer i kraft etter omstart av Dicecoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1016,8 +1016,8 @@ Adresse: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DiceCOIN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasjonen som vises kan være foreldet. Din lommebok synkroniseres automatisk med DiceCOIN-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dicecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasjonen som vises kan være foreldet. Din lommebok synkroniseres automatisk med Dicecoin-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1220,8 +1220,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DiceCOIN-Qt help message to get a list with possible DiceCOIN command-line options.</source>
-        <translation>Vis DiceCOIN-Qt hjelpemelding for å få en liste med mulige kommandolinjevalg.</translation>
+        <source>Show the Dicecoin-Qt help message to get a list with possible Dicecoin command-line options.</source>
+        <translation>Vis Dicecoin-Qt hjelpemelding for å få en liste med mulige kommandolinjevalg.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1240,13 +1240,13 @@ Adresse: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>DiceCOIN - Debug window</source>
-        <translation>DiceCOIN - vindu for feilsøk</translation>
+        <source>Dicecoin - Debug window</source>
+        <translation>Dicecoin - vindu for feilsøk</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DiceCOIN Core</source>
-        <translation>DiceCOIN Kjerne</translation>
+        <source>Dicecoin Core</source>
+        <translation>Dicecoin Kjerne</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1255,8 +1255,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DiceCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åpne DiceCOIN loggfil for feilsøk fra datamappen. Dette kan ta noen sekunder for store loggfiler.</translation>
+        <source>Open the Dicecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åpne Dicecoin loggfil for feilsøk fra datamappen. Dette kan ta noen sekunder for store loggfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1265,8 +1265,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the DiceCOIN RPC console.</source>
-        <translation>Velkommen til DiceCOIN RPC konsoll.</translation>
+        <source>Welcome to the Dicecoin RPC console.</source>
+        <translation>Velkommen til Dicecoin RPC konsoll.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1291,7 +1291,7 @@ Adresse: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Send DiceCOINs</translation>
+        <translation>Send Dicecoins</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1449,8 +1449,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DiceCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Skriv inn en DiceCOIN adresse (f.eks. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a Dicecoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Skriv inn en Dicecoin adresse (f.eks. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
 </context>
 <context>
@@ -1514,8 +1514,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DiceCOIN address</source>
-        <translation>Signer meldingen for å bevise at du eier denne DiceCOIN-adressen</translation>
+        <source>Sign the message to prove you own this Dicecoin address</source>
+        <translation>Signer meldingen for å bevise at du eier denne Dicecoin-adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1550,8 +1550,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DiceCOIN address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte DiceCOIN-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Dicecoin address</source>
+        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Dicecoin-adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1566,8 +1566,8 @@ Adresse: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DiceCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Skriv inn en DiceCOIN adresse (f.eks. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a Dicecoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Skriv inn en Dicecoin adresse (f.eks. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1576,8 +1576,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DiceCOIN signature</source>
-        <translation>Angi DiceCOIN signatur</translation>
+        <source>Enter Dicecoin signature</source>
+        <translation>Angi Dicecoin signatur</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2138,7 +2138,7 @@ Adresse: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Send DiceCOINs</translation>
+        <translation>Send Dicecoins</translation>
     </message>
 </context>
 <context>
@@ -2188,8 +2188,8 @@ Adresse: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>DiceCOIN version</source>
-        <translation>DiceCOIN versjon</translation>
+        <source>Dicecoin version</source>
+        <translation>Dicecoin versjon</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2307,7 +2307,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DiceCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Dicecoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, du må angi rpcpassord i konfigurasjonsfilen.
 %s
@@ -2318,7 +2318,7 @@ rpcpassord=%s
 Brukernavnet og passordet MÅ IKKE være like.
 Om filen ikke eksisterer, opprett den nå med eier-kun-les filrettigheter.
 Det er også anbefalt at å sette varselsmelding slik du får melding om problemer.
-For eksempel: varselmelding=echo %%s | mail -s &quot;DiceCOIN varsel&quot; admin@foo.com</translation>
+For eksempel: varselmelding=echo %%s | mail -s &quot;Dicecoin varsel&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2332,7 +2332,7 @@ For eksempel: varselmelding=echo %%s | mail -s &quot;DiceCOIN varsel&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. DiceCOIN is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Dicecoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2377,8 +2377,8 @@ For eksempel: varselmelding=echo %%s | mail -s &quot;DiceCOIN varsel&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DiceCOIN will not work properly.</source>
-        <translation>Advarsel: Vennligst undersøk at din datamaskin har riktig dato og klokkeslett! Hvis klokken er stilt feil vil ikke DiceCOIN fungere riktig.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dicecoin will not work properly.</source>
+        <translation>Advarsel: Vennligst undersøk at din datamaskin har riktig dato og klokkeslett! Hvis klokken er stilt feil vil ikke Dicecoin fungere riktig.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ For eksempel: varselmelding=echo %%s | mail -s &quot;DiceCOIN varsel&quot; admin
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the DiceCOIN Wiki for SSL setup instructions)</source>
-        <translation>SSL valg: (se DiceCOIN Wiki for instruksjoner for oppsett av SSL)</translation>
+        <source>SSL options: (see the Dicecoin Wiki for SSL setup instructions)</source>
+        <translation>SSL valg: (se Dicecoin Wiki for instruksjoner for oppsett av SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ For eksempel: varselmelding=echo %%s | mail -s &quot;DiceCOIN varsel&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DiceCOIN</source>
-        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av DiceCOIN</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dicecoin</source>
+        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av Dicecoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart DiceCOIN to complete</source>
-        <translation>Lommeboken måtte skrives om: start DiceCOIN på nytt for å fullføre</translation>
+        <source>Wallet needed to be rewritten: restart Dicecoin to complete</source>
+        <translation>Lommeboken måtte skrives om: start Dicecoin på nytt for å fullføre</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ For eksempel: varselmelding=echo %%s | mail -s &quot;DiceCOIN varsel&quot; admin
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. DiceCOIN is probably already running.</source>
-        <translation>Kan ikke binde til %s på denne datamaskinen. Sannsynligvis kjører DiceCOIN allerede.</translation>
+        <source>Unable to bind to %s on this computer. Dicecoin is probably already running.</source>
+        <translation>Kan ikke binde til %s på denne datamaskinen. Sannsynligvis kjører Dicecoin allerede.</translation>
     </message>
     <message>
         <location line="+64"/>

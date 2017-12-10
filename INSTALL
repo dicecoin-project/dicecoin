@@ -1,9 +1,9 @@
-Building DiceCOIN
+Building Dicecoin
 
-See doc/readme-qt.rst for instructions on building DiceCOIN-Qt,
+See doc/readme-qt.rst for instructions on building Dicecoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of DiceCOIN.
+implementation of Dicecoin.
 
 See doc/build-*.txt for instructions on building dicecoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of DiceCOIN.
+implementation of Dicecoin.

@@ -14,7 +14,7 @@ To Build
 	cd src/
 	make -f makefile.unix		# Headless dicecoin
 
-See readme-qt.rst for instructions on building DiceCOIN-Qt, the graphical user interface.
+See readme-qt.rst for instructions on building Dicecoin-Qt, the graphical user interface.
 
 Dependencies
 ---------------------

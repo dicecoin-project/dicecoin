@@ -1,10 +1,10 @@
-This directory contains files used to package dicecoind/DiceCOIN-qt
+This directory contains files used to package dicecoind/Dicecoin-qt
 for Debian-based Linux systems.
 
-If you compile dicecoind/DiceCOIN-Qt yourself, there are some
+If you compile dicecoind/Dicecoin-Qt yourself, there are some
 useful files here:
 
-DiceCOIN: URI support
+Dicecoin: URI support
 --------------------
 
 dicecoin-qt.desktop  (Gnome / Open Desktop)

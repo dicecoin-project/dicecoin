@@ -1,7 +1,7 @@
-DiceCOIN [DICE] Technical Details
+Dicecoin [DICE] Technical Details
 ===================================
 
-This document outlines the technical implementation details for DiceCOIN. It should be of use to advanced users and developers.
+This document outlines the technical implementation details for Dicecoin. It should be of use to advanced users and developers.
 
 Specifications
 --------------
@@ -16,7 +16,7 @@ Specifications
 Port numbers
 ------------
 
-The following port numbers are used by DiceCOIN.
+The following port numbers are used by Dicecoin.
 
 * P2P uses port 7247 (17247 on Testnet)
 * RPC uses port 7347 (17347 on Testnet)
@@ -24,7 +24,7 @@ The following port numbers are used by DiceCOIN.
 Message start string
 --------------------
 
-The message start string used by DiceCOIN is:
+The message start string used by Dicecoin is:
 
 ```
 0xff, 0xc4, 0xba, 0xdf

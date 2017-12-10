@@ -1,4 +1,4 @@
-#define BOOST_TEST_MODULE DiceCOIN Test Suite
+#define BOOST_TEST_MODULE Dicecoin Test Suite
 #include <boost/test/unit_test.hpp>
 #include <boost/filesystem.hpp>
 

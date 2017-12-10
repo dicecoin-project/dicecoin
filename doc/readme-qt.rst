@@ -1,4 +1,4 @@
-DiceCOIN-Qt: Qt4 GUI for DiceCOIN
+Dicecoin-Qt: Qt4 GUI for Dicecoin
 ===================================
 
 Build instructions
@@ -133,9 +133,9 @@ flag to qmake to control this:
 Berkely DB version warning
 ==========================
 
-A warning for people using the *static binary* version of DiceCOIN on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
+A warning for people using the *static binary* version of Dicecoin on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
 
-The static binary version of DiceCOIN is linked against libdb4.8 (see also `this Debian issue`_).
+The static binary version of Dicecoin is linked against libdb4.8 (see also `this Debian issue`_).
 
 Now the nasty thing is that databases from 5.X are not compatible with 4.X.
 

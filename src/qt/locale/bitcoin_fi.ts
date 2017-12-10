@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DiceCOIN</source>
-        <translation>Tietoa DiceCOINista</translation>
+        <source>About Dicecoin</source>
+        <translation>Tietoa Dicecoinista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DiceCOIN&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;DiceCOIN&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;Dicecoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Dicecoin&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -68,8 +68,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your DiceCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat DiceCOIN-osoitteesi joihin voit vastaanottaa maksuja. Voit haluta antaa jokaiselle maksajalle omansa, että pystyt seuraamaan keneltä maksut tulevat.</translation>
+        <source>These are your Dicecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat Dicecoin-osoitteesi joihin voit vastaanottaa maksuja. Voit haluta antaa jokaiselle maksajalle omansa, että pystyt seuraamaan keneltä maksut tulevat.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -83,8 +83,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DiceCOIN address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat DiceCOIN-osoitteen</translation>
+        <source>Sign a message to prove you own a Dicecoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat Dicecoin-osoitteen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -108,8 +108,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified DiceCOIN address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä DiceCOIN-osoitteella</translation>
+        <source>Verify a message to ensure it was signed with a specified Dicecoin address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Dicecoin-osoitteella</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,7 +123,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your DiceCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Dicecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -276,8 +276,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-56"/>
-        <source>DiceCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dicecoins from being stolen by malware infecting your computer.</source>
-        <translation>DiceCOIN sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
+        <source>Dicecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dicecoins from being stolen by malware infecting your computer.</source>
+        <translation>Dicecoin sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -361,7 +361,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Näytä DiceCOINien vastaanottamiseen käytetyt osoitteet</translation>
+        <translation>Näytä Dicecoinien vastaanottamiseen käytetyt osoitteet</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -375,8 +375,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DiceCOIN</source>
-        <translation>Näytä tietoa DiceCOIN-projektista</translation>
+        <source>Show information about Dicecoin</source>
+        <translation>Näytä tietoa Dicecoin-projektista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a DiceCOIN address</source>
-        <translation>Lähetä kolikoita DiceCOIN-osoitteeseen</translation>
+        <source>Send coins to a Dicecoin address</source>
+        <translation>Lähetä kolikoita Dicecoin-osoitteeseen</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for DiceCOIN</source>
-        <translation>Muuta DiceCOINin konfiguraatioasetuksia</translation>
+        <source>Modify configuration options for Dicecoin</source>
+        <translation>Muuta Dicecoinin konfiguraatioasetuksia</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,8 +456,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>DiceCOIN</source>
-        <translation>DiceCOIN</translation>
+        <source>Dicecoin</source>
+        <translation>Dicecoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,8 +481,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About DiceCOIN</source>
-        <translation>&amp;Tietoa DiceCOINista</translation>
+        <source>&amp;About Dicecoin</source>
+        <translation>&amp;Tietoa Dicecoinista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -492,7 +492,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota DiceCOIN-ikkuna</translation>
+        <translation>Näytä tai piilota Dicecoin-ikkuna</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -501,13 +501,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your DiceCOIN addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla DiceCOIN -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your Dicecoin addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla Dicecoin -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified DiceCOIN addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä DiceCOIN -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified Dicecoin addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Dicecoin -osoitteella</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,13 +537,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+47"/>
-        <source>DiceCOIN client</source>
-        <translation>DiceCOIN-asiakas</translation>
+        <source>Dicecoin client</source>
+        <translation>Dicecoin-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to DiceCOIN network</source>
-        <translation><numerusform>%n aktiivinen yhteys DiceCOIN-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä DiceCOIN-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to Dicecoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys Dicecoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Dicecoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Osoite: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid DiceCOIN address or malformed URI parameters.</source>
-        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta DiceCOIN-osoitteesta tai virheellisistä URI parametreista.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Dicecoin address or malformed URI parameters.</source>
+        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta Dicecoin-osoitteesta tai virheellisistä URI parametreista.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. DiceCOIN can no longer continue safely and will quit.</source>
-        <translation>Peruuttamaton virhe on tapahtunut. DiceCOIN ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
+        <source>A fatal error occurred. Dicecoin can no longer continue safely and will quit.</source>
+        <translation>Peruuttamaton virhe on tapahtunut. Dicecoin ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DiceCOIN address.</source>
-        <translation>Antamasi osoite &quot;%1&quot; ei ole validi DiceCOIN-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Dicecoin address.</source>
+        <translation>Antamasi osoite &quot;%1&quot; ei ole validi Dicecoin-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Osoite: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>DiceCOIN-Qt</source>
-        <translation>DiceCOIN-Qt</translation>
+        <source>Dicecoin-Qt</source>
+        <translation>Dicecoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DiceCOIN after logging in to the system.</source>
-        <translation>Käynnistä DiceCOIN kirjautumisen yhteydessä.</translation>
+        <source>Automatically start Dicecoin after logging in to the system.</source>
+        <translation>Käynnistä Dicecoin kirjautumisen yhteydessä.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DiceCOIN on system login</source>
-        <translation>&amp;Käynnistä DiceCOIN kirjautumisen yhteydessä</translation>
+        <source>&amp;Start Dicecoin on system login</source>
+        <translation>&amp;Käynnistä Dicecoin kirjautumisen yhteydessä</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DiceCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa DiceCOIN-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Dicecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa Dicecoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DiceCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Ota yhteys DiceCOIN-verkkoon SOCKS-proxyn läpi (esimerkiksi kun haluat käyttää Tor-verkkoa).</translation>
+        <source>Connect to the Dicecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Ota yhteys Dicecoin-verkkoon SOCKS-proxyn läpi (esimerkiksi kun haluat käyttää Tor-verkkoa).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -910,7 +910,7 @@ Osoite: %4</translation>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Ikkunaa suljettaessa vain pienentää DiceCOIN-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
+        <translation>Ikkunaa suljettaessa vain pienentää Dicecoin-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DiceCOIN.</source>
-        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun DiceCOIN käynnistetään.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Dicecoin.</source>
+        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun Dicecoin käynnistetään.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DiceCOIN addresses in the transaction list or not.</source>
-        <translation>Näytetäänkö DiceCOIN-osoitteet rahansiirrot listassa vai ei.</translation>
+        <source>Whether to show Dicecoin addresses in the transaction list or not.</source>
+        <translation>Näytetäänkö Dicecoin-osoitteet rahansiirrot listassa vai ei.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Osoite: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DiceCOIN.</source>
-        <translation>Tämä asetus astuu voimaan seuraavalla kerralla, kun DiceCOIN käynnistetään.</translation>
+        <source>This setting will take effect after restarting Dicecoin.</source>
+        <translation>Tämä asetus astuu voimaan seuraavalla kerralla, kun Dicecoin käynnistetään.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Osoite: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DiceCOIN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu DiceCOIN-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dicecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Dicecoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1051,12 +1051,12 @@ Osoite: %4</translation>
     <message>
         <location line="-101"/>
         <source>Your current balance</source>
-        <translation>Tililläsi tällä hetkellä olevien DiceCOINien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien Dicecoinien määrä</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Niiden saapuvien rahansiirtojen määrä, joita DiceCOIN-verkko ei vielä ole ehtinyt vahvistaa ja siten eivät vielä näy saldossa.</translation>
+        <translation>Niiden saapuvien rahansiirtojen määrä, joita Dicecoin-verkko ei vielä ole ehtinyt vahvistaa ja siten eivät vielä näy saldossa.</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
@@ -1219,8 +1219,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DiceCOIN-Qt help message to get a list with possible DiceCOIN command-line options.</source>
-        <translation>Näytä DiceCOIN-Qt komentoriviparametrien ohjesivu, jossa on listattuna mahdolliset komentoriviparametrit.</translation>
+        <source>Show the Dicecoin-Qt help message to get a list with possible Dicecoin command-line options.</source>
+        <translation>Näytä Dicecoin-Qt komentoriviparametrien ohjesivu, jossa on listattuna mahdolliset komentoriviparametrit.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>DiceCOIN - Debug window</source>
-        <translation>DiceCOIN - Debug ikkuna</translation>
+        <source>Dicecoin - Debug window</source>
+        <translation>Dicecoin - Debug ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DiceCOIN Core</source>
-        <translation>DiceCOIN-ydin</translation>
+        <source>Dicecoin Core</source>
+        <translation>Dicecoin-ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,7 +1254,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DiceCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Dicecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Avaa lokitiedosto nykyisestä data-kansiosta. Tämä voi viedä useamman sekunnin, jos lokitiedosto on iso.</translation>
     </message>
     <message>
@@ -1264,8 +1264,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the DiceCOIN RPC console.</source>
-        <translation>Tervetuloa DiceCOIN RPC konsoliin.</translation>
+        <source>Welcome to the Dicecoin RPC console.</source>
+        <translation>Tervetuloa Dicecoin RPC konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1290,7 +1290,7 @@ Osoite: %4</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Lähetä DiceCOINeja</translation>
+        <translation>Lähetä Dicecoineja</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1340,7 +1340,7 @@ Osoite: %4</translation>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Hyväksy DiceCOINien lähettäminen</translation>
+        <translation>Hyväksy Dicecoinien lähettäminen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1360,7 +1360,7 @@ Osoite: %4</translation>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Maksettavan summan tulee olla suurempi kuin 0 DiceCOINia.</translation>
+        <translation>Maksettavan summan tulee olla suurempi kuin 0 Dicecoinia.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1448,8 +1448,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DiceCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Anna DiceCOIN-osoite (esim. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a Dicecoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Anna Dicecoin-osoite (esim. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DiceCOIN address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän DiceCOIN-osoitteen</translation>
+        <source>Sign the message to prove you own this Dicecoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Dicecoin-osoitteen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DiceCOIN address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä DiceCOIN-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Dicecoin address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Dicecoin-osoitteella</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Osoite: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DiceCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Anna DiceCOIN-osoite (esim. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a Dicecoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Anna Dicecoin-osoite (esim. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DiceCOIN signature</source>
-        <translation>Syötä DiceCOIN-allekirjoitus</translation>
+        <source>Enter Dicecoin signature</source>
+        <translation>Syötä Dicecoin-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1955,7 +1955,7 @@ Osoite: %4</translation>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>Rahansiirron kohteen DiceCOIN-osoite</translation>
+        <translation>Rahansiirron kohteen Dicecoin-osoite</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2137,7 +2137,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Lähetä DiceCOINeja</translation>
+        <translation>Lähetä Dicecoineja</translation>
     </message>
 </context>
 <context>
@@ -2187,8 +2187,8 @@ Osoite: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>DiceCOIN version</source>
-        <translation>DiceCOINin versio</translation>
+        <source>Dicecoin version</source>
+        <translation>Dicecoinin versio</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2306,7 +2306,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DiceCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Dicecoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2322,7 +2322,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DiceCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. DiceCOIN is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Dicecoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2367,8 +2367,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DiceCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DiceCOIN will not work properly.</source>
-        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! DiceCOIN ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dicecoin will not work properly.</source>
+        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! Dicecoin ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2617,8 +2617,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DiceCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the DiceCOIN Wiki for SSL setup instructions)</source>
-        <translation>SSL asetukset (katso DiceCOIN Wikistä tarkemmat SSL ohjeet)</translation>
+        <source>SSL options: (see the Dicecoin Wiki for SSL setup instructions)</source>
+        <translation>SSL asetukset (katso Dicecoin Wikistä tarkemmat SSL ohjeet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2808,13 +2808,13 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DiceCOIN</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version DiceCOINista</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dicecoin</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Dicecoinista</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart DiceCOIN to complete</source>
-        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä DiceCOIN uudelleen</translation>
+        <source>Wallet needed to be rewritten: restart Dicecoin to complete</source>
+        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä Dicecoin uudelleen</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2873,8 +2873,8 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. DiceCOIN is probably already running.</source>
-        <translation>Kytkeytyminen %s ei onnistu tällä tietokoneella. DiceCOIN on todennäköisesti jo ajamassa.</translation>
+        <source>Unable to bind to %s on this computer. Dicecoin is probably already running.</source>
+        <translation>Kytkeytyminen %s ei onnistu tällä tietokoneella. Dicecoin on todennäköisesti jo ajamassa.</translation>
     </message>
     <message>
         <location line="+64"/>

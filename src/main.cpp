@@ -35,7 +35,7 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 uint256 hashGenesisBlock("0x00000eb275fec65bf2239a08bb982d478907698f55feda665af98a512f25889c");
-static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // DiceCOIN: starting difficulty is 1 / 2^12
+static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Dicecoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 uint256 nBestChainWork = 0;
@@ -67,7 +67,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "DiceCOIN Signed Message:\n";
+const string strMessageMagic = "Dicecoin Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -359,7 +359,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 
 bool CTxOut::IsDust() const
 {
-    // DiceCOIN: IsDust() detection disabled, allows any valid dust to be relayed.
+    // Dicecoin: IsDust() detection disabled, allows any valid dust to be relayed.
     // The fees imposed on each dust txo is considered sufficient spam deterrant. 
     return false;
 }
@@ -616,7 +616,7 @@ int64 CTransaction::GetMinFee(unsigned int nBlockSize, bool fAllowFree,
             nMinFee = 0;
     }
 
-    // DiceCOIN
+    // Dicecoin
     // To limit dust spam, add nBaseFee for each output less than DUST_SOFT_LIMIT
     BOOST_FOREACH(const CTxOut& txout, vout)
         if (txout.nValue < DUST_SOFT_LIMIT)
@@ -1095,7 +1095,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 60*2; // DiceCOIN: 2 minute
+static const int64 nTargetTimespan = 60*2; // Dicecoin: 2 minute
 static const int64 nTargetSpacing = 60*2; // 2 minute
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
@@ -2126,7 +2126,7 @@ bool CBlock::CheckBlock(CValidationState &state, bool fCheckPOW, bool fCheckMerk
     if (vtx.empty() || vtx.size() > MAX_BLOCK_SIZE || ::GetSerializeSize(*this, SER_NETWORK, PROTOCOL_VERSION) > MAX_BLOCK_SIZE)
         return state.DoS(100, error("CheckBlock() : size limits failed"));
 
-    // DiceCOIN: Special short-term limits to avoid 10,000 BDB lock limit:
+    // Dicecoin: Special short-term limits to avoid 10,000 BDB lock limit:
     if (GetBlockTime() < 1376568000)  // stop enforcing 15 August 2013 00:00:00
     {
         // Rule is: #unique txids referenced <= 4,500
@@ -2300,7 +2300,7 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
 
 bool CBlockIndex::IsSuperMajority(int minVersion, const CBlockIndex* pstart, unsigned int nRequired, unsigned int nToCheck)
 {
-    // DiceCOIN: temporarily disable v2 block lockin until we are ready for v2 transition
+    // Dicecoin: temporarily disable v2 block lockin until we are ready for v2 transition
     return false;
     unsigned int nFound = 0;
     for (unsigned int i = 0; i < nToCheck && nFound < nRequired && pstart != NULL; i++)
@@ -4270,7 +4270,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// DiceCOINMiner
+// DicecoinMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4683,7 +4683,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("DiceCOINMiner:\n");
+    printf("DicecoinMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4692,7 +4692,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("DiceCOINMiner : generated block is stale");
+            return error("DicecoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4706,15 +4706,15 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("DiceCOINMiner : ProcessBlock, block not accepted");
+            return error("DicecoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static DiceCOINMiner(CWallet *pwallet)
+void static DicecoinMiner(CWallet *pwallet)
 {
-    printf("DiceCOINMiner started\n");
+    printf("DicecoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("dicecoin-miner");
 
@@ -4738,7 +4738,7 @@ void static DiceCOINMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running DiceCOINMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running DicecoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4836,7 +4836,7 @@ void static DiceCOINMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("DiceCOINMiner terminated\n");
+        printf("DicecoinMiner terminated\n");
         throw;
     }
 }
@@ -4861,7 +4861,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&DiceCOINMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&DicecoinMiner, pwallet));
 }
 
 // Amount compression:

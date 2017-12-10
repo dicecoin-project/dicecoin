@@ -1,12 +1,12 @@
-# This installs DiceCOIN, creates a start menu shortcut, builds an uninstaller, and
+# This installs Dicecoin, creates a start menu shortcut, builds an uninstaller, and
 # adds uninstall information to the registry for Add/Remove Programs
 
 # Include script to determine Windows version
 !include WinVer.nsh
 
 # Set up application parameters
-!define APPNAME "DiceCOIN"
-!define COMPANYNAME "DiceCOIN"
+!define APPNAME "Dicecoin"
+!define COMPANYNAME "Dicecoin"
 !define DESCRIPTION "The digital currency for crowdfunding"
 
 # version

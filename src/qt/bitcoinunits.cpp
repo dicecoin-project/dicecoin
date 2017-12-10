@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("DiceCOIN");
-    case mBTC: return QString("Milli-DiceCOIN (1 / 1,000)");
-    case uBTC: return QString("Micro-DiceCOIN (1 / 1,000,000)");
+    case BTC: return QString("Dicecoin");
+    case mBTC: return QString("Milli-Dicecoin (1 / 1,000)");
+    case uBTC: return QString("Micro-Dicecoin (1 / 1,000,000)");
     default: return QString("???");
     }
 }

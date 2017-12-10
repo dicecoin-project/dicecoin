@@ -1031,13 +1031,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\DiceCOIN
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\DiceCOIN
-    // Mac: ~/Library/Application Support/DiceCOIN
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Dicecoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Dicecoin
+    // Mac: ~/Library/Application Support/Dicecoin
     // Unix: ~/.dicecoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "DiceCOIN";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Dicecoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1049,7 +1049,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "DiceCOIN";
+    return pathRet / "Dicecoin";
 #else
     // Unix
     return pathRet / ".dicecoin";
@@ -1336,7 +1336,7 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
         int64 nMedian = vTimeOffsets.median();
         std::vector<int64> vSorted = vTimeOffsets.sorted();
         // Only let other nodes change our time by so much
-        if (abs64(nMedian) < 35 * 60) // DiceCOIN: changed maximum adjust to 35 mins to avoid letting peers change our time too much in case of an attack.
+        if (abs64(nMedian) < 35 * 60) // Dicecoin: changed maximum adjust to 35 mins to avoid letting peers change our time too much in case of an attack.
         {
             nTimeOffset = nMedian;
         }
@@ -1356,7 +1356,7 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong DiceCOIN will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Dicecoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
                     uiInterface.ThreadSafeMessageBox(strMessage, "", CClientUIInterface::MSG_WARNING);

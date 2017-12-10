@@ -15,16 +15,16 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>DiceCOIN-Qt</string>
+	<string>Dicecoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.startjoin.DiceCOIN-Qt</string>
+	<string>com.startjoin.Dicecoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>com.startjoin.DiceCOINPayment</string>
+            <string>com.startjoin.DicecoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
               <string>dicecoin</string>

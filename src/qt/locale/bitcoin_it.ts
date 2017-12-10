@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DiceCOIN</source>
-        <translation>Info su DiceCOIN</translation>
+        <source>About Dicecoin</source>
+        <translation>Info su Dicecoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DiceCOIN&lt;/b&gt; version</source>
-        <translation>Versione di &lt;b&gt;DiceCOIN&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Dicecoin&lt;/b&gt; version</source>
+        <translation>Versione di &lt;b&gt;Dicecoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,7 +35,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location line="+0"/>
         <source>StartJOIN</source>
-        <translation>Sviluppatori di DiceCOIN</translation>
+        <translation>Sviluppatori di Dicecoin</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your DiceCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Questi sono i tuoi indirizzi DiceCOIN per ricevere pagamenti. Potrai darne uno diverso ad ognuno per tenere così traccia di chi ti sta pagando.</translation>
+        <source>These are your Dicecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Questi sono i tuoi indirizzi Dicecoin per ricevere pagamenti. Potrai darne uno diverso ad ognuno per tenere così traccia di chi ti sta pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,7 +82,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DiceCOIN address</source>
+        <source>Sign a message to prove you own a Dicecoin address</source>
         <translation>Firma un messaggio per dimostrare di possedere questo indirizzo</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified DiceCOIN address</source>
-        <translation>Verifica un messaggio per accertarsi che sia firmato con un indirizzo DiceCOIN specifico</translation>
+        <source>Verify a message to ensure it was signed with a specified Dicecoin address</source>
+        <translation>Verifica un messaggio per accertarsi che sia firmato con un indirizzo Dicecoin specifico</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,7 +122,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your DiceCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Dicecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -138,7 +138,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>Invia &amp;DiceCOIN</translation>
+        <translation>Invia &amp;Dicecoin</translation>
     </message>
     <message>
         <location line="+260"/>
@@ -275,8 +275,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="-56"/>
-        <source>DiceCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dicecoins from being stolen by malware infecting your computer.</source>
-        <translation>DiceCOIN verrà ora chiuso per finire il processo di crittazione. Ricorda che criptare il tuo portamonete non può fornire una protezione totale contro furti causati da malware che dovessero infettare il tuo computer.</translation>
+        <source>Dicecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dicecoins from being stolen by malware infecting your computer.</source>
+        <translation>Dicecoin verrà ora chiuso per finire il processo di crittazione. Ricorda che criptare il tuo portamonete non può fornire una protezione totale contro furti causati da malware che dovessero infettare il tuo computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DiceCOIN</source>
-        <translation>Mostra informazioni su DiceCOIN</translation>
+        <source>Show information about Dicecoin</source>
+        <translation>Mostra informazioni su Dicecoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,12 +419,12 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a DiceCOIN address</source>
+        <source>Send coins to a Dicecoin address</source>
         <translation>Invia monete ad un indirizzo dicecoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for DiceCOIN</source>
+        <source>Modify configuration options for Dicecoin</source>
         <translation>Modifica configurazione opzioni per dicecoin</translation>
     </message>
     <message>
@@ -455,8 +455,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>DiceCOIN</source>
-        <translation>DiceCOIN</translation>
+        <source>Dicecoin</source>
+        <translation>Dicecoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About DiceCOIN</source>
-        <translation>&amp;Info su DiceCOIN</translation>
+        <source>&amp;About Dicecoin</source>
+        <translation>&amp;Info su Dicecoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your DiceCOIN addresses to prove you own them</source>
-        <translation>Firma i messaggi con il tuo indirizzo DiceCOIN per dimostrare di possederli</translation>
+        <source>Sign messages with your Dicecoin addresses to prove you own them</source>
+        <translation>Firma i messaggi con il tuo indirizzo Dicecoin per dimostrare di possederli</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified DiceCOIN addresses</source>
-        <translation>Verifica i messaggi per accertarsi che siano stati firmati con gli indirizzi DiceCOIN specificati</translation>
+        <source>Verify messages to ensure they were signed with specified Dicecoin addresses</source>
+        <translation>Verifica i messaggi per accertarsi che siano stati firmati con gli indirizzi Dicecoin specificati</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+47"/>
-        <source>DiceCOIN client</source>
-        <translation>DiceCOIN client</translation>
+        <source>Dicecoin client</source>
+        <translation>Dicecoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to DiceCOIN network</source>
-        <translation><numerusform>%n connessione attiva alla rete DiceCOIN</numerusform><numerusform>%n connessioni attive alla rete DiceCOIN</numerusform></translation>
+        <source>%n active connection(s) to Dicecoin network</source>
+        <translation><numerusform>%n connessione attiva alla rete Dicecoin</numerusform><numerusform>%n connessioni attive alla rete Dicecoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -657,8 +657,8 @@ Indirizzo: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid DiceCOIN address or malformed URI parameters.</source>
-        <translation>Impossibile interpretare l&apos;URI! Ciò può essere causato da un indirizzo DiceCOIN invalido o da parametri URI non corretti.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Dicecoin address or malformed URI parameters.</source>
+        <translation>Impossibile interpretare l&apos;URI! Ciò può essere causato da un indirizzo Dicecoin invalido o da parametri URI non corretti.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -672,8 +672,8 @@ Indirizzo: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. DiceCOIN can no longer continue safely and will quit.</source>
-        <translation>Riscontrato un errore irreversibile. DiceCOIN non può più continuare in sicurezza e verrà terminato.</translation>
+        <source>A fatal error occurred. Dicecoin can no longer continue safely and will quit.</source>
+        <translation>Riscontrato un errore irreversibile. Dicecoin non può più continuare in sicurezza e verrà terminato.</translation>
     </message>
 </context>
 <context>
@@ -738,7 +738,7 @@ Indirizzo: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DiceCOIN address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Dicecoin address.</source>
         <translation>L&apos;indirizzo inserito &quot;%1&quot; non è un indirizzo dicecoin valido.</translation>
     </message>
     <message>
@@ -757,8 +757,8 @@ Indirizzo: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>DiceCOIN-Qt</source>
-        <translation>DiceCOIN-Qt</translation>
+        <source>Dicecoin-Qt</source>
+        <translation>Dicecoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -821,13 +821,13 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DiceCOIN after logging in to the system.</source>
-        <translation>Avvia automaticamente DiceCOIN all&apos;accensione del computer</translation>
+        <source>Automatically start Dicecoin after logging in to the system.</source>
+        <translation>Avvia automaticamente Dicecoin all&apos;accensione del computer</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DiceCOIN on system login</source>
-        <translation>&amp;Fai partire DiceCOIN all&apos;avvio del sistema</translation>
+        <source>&amp;Start Dicecoin on system login</source>
+        <translation>&amp;Fai partire Dicecoin all&apos;avvio del sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -846,8 +846,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DiceCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta del client DiceCOIN sul router. Questo funziona solo se il router supporta UPnP ed è abilitato.</translation>
+        <source>Automatically open the Dicecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Apri automaticamente la porta del client Dicecoin sul router. Questo funziona solo se il router supporta UPnP ed è abilitato.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -856,7 +856,7 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DiceCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Dicecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Connettiti alla rete Bitcon attraverso un proxy SOCKS (ad esempio quando ci si collega via Tor)</translation>
     </message>
     <message>
@@ -931,8 +931,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DiceCOIN.</source>
-        <translation>La lingua dell&apos;interfaccia utente può essere impostata qui. L&apos;impostazione avrà effetto dopo il riavvio di DiceCOIN.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Dicecoin.</source>
+        <translation>La lingua dell&apos;interfaccia utente può essere impostata qui. L&apos;impostazione avrà effetto dopo il riavvio di Dicecoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -946,8 +946,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DiceCOIN addresses in the transaction list or not.</source>
-        <translation>Se mostrare l&apos;indirizzo DiceCOIN nella transazione o meno.</translation>
+        <source>Whether to show Dicecoin addresses in the transaction list or not.</source>
+        <translation>Se mostrare l&apos;indirizzo Dicecoin nella transazione o meno.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -998,8 +998,8 @@ Indirizzo: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DiceCOIN.</source>
-        <translation>L&apos;impostazione avrà effetto dopo il riavvio di DiceCOIN.</translation>
+        <source>This setting will take effect after restarting Dicecoin.</source>
+        <translation>L&apos;impostazione avrà effetto dopo il riavvio di Dicecoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1017,8 +1017,8 @@ Indirizzo: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DiceCOIN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate sono datate. Il tuo partafogli verrà sincronizzato automaticamente con il network DiceCOIN dopo che la connessione è stabilita, ma questo processo non può essere completato ora.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dicecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Le informazioni visualizzate sono datate. Il tuo partafogli verrà sincronizzato automaticamente con il network Dicecoin dopo che la connessione è stabilita, ma questo processo non può essere completato ora.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1221,8 +1221,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DiceCOIN-Qt help message to get a list with possible DiceCOIN command-line options.</source>
-        <translation>Mostra il messaggio di aiuto di DiceCOIN-QT per avere la lista di tutte le opzioni della riga di comando di DiceCOIN.</translation>
+        <source>Show the Dicecoin-Qt help message to get a list with possible Dicecoin command-line options.</source>
+        <translation>Mostra il messaggio di aiuto di Dicecoin-QT per avere la lista di tutte le opzioni della riga di comando di Dicecoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1241,12 +1241,12 @@ Indirizzo: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>DiceCOIN - Debug window</source>
-        <translation>DiceCOIN - Finestra debug</translation>
+        <source>Dicecoin - Debug window</source>
+        <translation>Dicecoin - Finestra debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DiceCOIN Core</source>
+        <source>Dicecoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1256,8 +1256,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DiceCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Apri il file di log del debug di DiceCOIN dalla cartella attuale. Può richiedere alcuni secondi per file di log grandi.</translation>
+        <source>Open the Dicecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Apri il file di log del debug di Dicecoin dalla cartella attuale. Può richiedere alcuni secondi per file di log grandi.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1266,8 +1266,8 @@ Indirizzo: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the DiceCOIN RPC console.</source>
-        <translation>Benvenuto nella console RPC di DiceCOIN</translation>
+        <source>Welcome to the Dicecoin RPC console.</source>
+        <translation>Benvenuto nella console RPC di Dicecoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1292,7 +1292,7 @@ Indirizzo: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Spedisci DiceCOIN</translation>
+        <translation>Spedisci Dicecoin</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1450,8 +1450,8 @@ Indirizzo: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DiceCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Inserisci un indirizzo DiceCOIN (ad esempio sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a Dicecoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Inserisci un indirizzo Dicecoin (ad esempio sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
 </context>
 <context>
@@ -1474,7 +1474,7 @@ Indirizzo: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Inserisci un indirizzo DiceCOIN (ad esempio sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <translation>Inserisci un indirizzo Dicecoin (ad esempio sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1515,7 +1515,7 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DiceCOIN address</source>
+        <source>Sign the message to prove you own this Dicecoin address</source>
         <translation>Firma un messaggio per dimostrare di possedere questo indirizzo</translation>
     </message>
     <message>
@@ -1547,12 +1547,12 @@ Indirizzo: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Inserisci un indirizzo DiceCOIN (ad esempio sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <translation>Inserisci un indirizzo Dicecoin (ad esempio sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DiceCOIN address</source>
-        <translation>Verifica il messaggio per assicurarsi che sia stato firmato con l&apos;indirizzo DiceCOIN specificato</translation>
+        <source>Verify the message to ensure it was signed with the specified Dicecoin address</source>
+        <translation>Verifica il messaggio per assicurarsi che sia stato firmato con l&apos;indirizzo Dicecoin specificato</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1567,8 +1567,8 @@ Indirizzo: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DiceCOIN address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
-        <translation>Inserisci un indirizzo DiceCOIN (ad esempio sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
+        <source>Enter a Dicecoin address (e.g. sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</source>
+        <translation>Inserisci un indirizzo Dicecoin (ad esempio sSxjmkQbhzcbnhNLPru6TwPy4HRPogaDcK)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1577,8 +1577,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DiceCOIN signature</source>
-        <translation>Inserisci firma DiceCOIN</translation>
+        <source>Enter Dicecoin signature</source>
+        <translation>Inserisci firma Dicecoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1652,7 +1652,7 @@ Indirizzo: %4
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>StartJOIN</source>
-        <translation>Sviluppatori di DiceCOIN</translation>
+        <translation>Sviluppatori di Dicecoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2139,7 +2139,7 @@ Indirizzo: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Spedisci DiceCOIN</translation>
+        <translation>Spedisci Dicecoin</translation>
     </message>
 </context>
 <context>
@@ -2189,8 +2189,8 @@ Indirizzo: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>DiceCOIN version</source>
-        <translation>Versione di DiceCOIN</translation>
+        <source>Dicecoin version</source>
+        <translation>Versione di Dicecoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2318,7 +2318,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DiceCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Dicecoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2334,8 +2334,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DiceCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. DiceCOIN is probably already running.</source>
-        <translation>Non è possibile ottenere i dati sulla cartella %s. Probabilmente DiceCOIN è già in esecuzione.</translation>
+        <source>Cannot obtain a lock on data directory %s. Dicecoin is probably already running.</source>
+        <translation>Non è possibile ottenere i dati sulla cartella %s. Probabilmente Dicecoin è già in esecuzione.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2379,8 +2379,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DiceCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DiceCOIN will not work properly.</source>
-        <translation>Attenzione: si prega di controllare che la data del computer e l&apos;ora siano corrette. Se il vostro orologio è sbagliato DiceCOIN non funziona correttamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dicecoin will not work properly.</source>
+        <translation>Attenzione: si prega di controllare che la data del computer e l&apos;ora siano corrette. Se il vostro orologio è sbagliato Dicecoin non funziona correttamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2629,8 +2629,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DiceCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the DiceCOIN Wiki for SSL setup instructions)</source>
-        <translation>Opzioni SSL: (vedi il wiki di DiceCOIN per le istruzioni di configurazione SSL)</translation>
+        <source>SSL options: (see the Dicecoin Wiki for SSL setup instructions)</source>
+        <translation>Opzioni SSL: (vedi il wiki di Dicecoin per le istruzioni di configurazione SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2831,13 +2831,13 @@ for example: alertnotify=echo %%s | mail -s &quot;DiceCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DiceCOIN</source>
-        <translation>Errore caricamento wallet.dat: il wallet richiede una versione nuova di DiceCOIN</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dicecoin</source>
+        <translation>Errore caricamento wallet.dat: il wallet richiede una versione nuova di Dicecoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart DiceCOIN to complete</source>
-        <translation>Il portamonete deve essere riscritto: riavviare DiceCOIN per completare</translation>
+        <source>Wallet needed to be rewritten: restart Dicecoin to complete</source>
+        <translation>Il portamonete deve essere riscritto: riavviare Dicecoin per completare</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2896,8 +2896,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DiceCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. DiceCOIN is probably already running.</source>
-        <translation>Impossibile collegarsi alla %s su questo computer. Probabilmente DiceCOIN è già in esecuzione.</translation>
+        <source>Unable to bind to %s on this computer. Dicecoin is probably already running.</source>
+        <translation>Impossibile collegarsi alla %s su questo computer. Probabilmente Dicecoin è già in esecuzione.</translation>
     </message>
     <message>
         <location line="+64"/>

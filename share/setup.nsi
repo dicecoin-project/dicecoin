@@ -1,4 +1,4 @@
-Name DiceCOIN
+Name Dicecoin
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -19,7 +19,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER DiceCOIN
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER Dicecoin
 !define MUI_FINISHPAGE_RUN $INSTDIR\dicecoin-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
@@ -46,13 +46,13 @@ Var StartMenuGroup
 
 # Installer attributes
 OutFile dicecoin-0.8.6.2-win32-setup.exe
-InstallDir $PROGRAMFILES\DiceCOIN
+InstallDir $PROGRAMFILES\Dicecoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion 0.8.6.2
-VIAddVersionKey ProductName DiceCOIN
+VIAddVersionKey ProductName Dicecoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -87,8 +87,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\DiceCOIN.lnk" $INSTDIR\dicecoin-qt.exe
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall DiceCOIN.lnk" $INSTDIR\uninstall.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Dicecoin.lnk" $INSTDIR\dicecoin-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall Dicecoin.lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -99,7 +99,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "dicecoin" "URL Protocol" ""
-    WriteRegStr HKCR "dicecoin" "" "URL:DiceCOIN"
+    WriteRegStr HKCR "dicecoin" "" "URL:Dicecoin"
     WriteRegStr HKCR "dicecoin\DefaultIcon" "" $INSTDIR\dicecoin-qt.exe
     WriteRegStr HKCR "dicecoin\shell\open\command" "" '"$INSTDIR\dicecoin-qt.exe" "%1"'
 SectionEnd
@@ -129,9 +129,9 @@ SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall DiceCOIN.lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\DiceCOIN.lnk"
-    Delete /REBOOTOK "$SMSTARTUP\DiceCOIN.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall Dicecoin.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Dicecoin.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Dicecoin.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log

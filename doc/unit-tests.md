@@ -19,10 +19,10 @@ implement new BOOST_AUTO_TEST_SUITE sections (the makefiles are
 set up to add test/*.cpp to test_dicecoin automatically).
 
 
-Compiling/running DiceCOIN-Qt unit tests
+Compiling/running Dicecoin-Qt unit tests
 ---------------------------------------
 
-DiceCOIN-Qt unit tests are in the src/qt/test/ directory; they
+Dicecoin-Qt unit tests are in the src/qt/test/ directory; they
 use the Qt unit-testing framework.
 
 To compile and run the tests:
